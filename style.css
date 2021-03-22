@@ -1,0 +1,125 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); 
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.faq-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 986px;
+    height: 546px;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.hidden-overflow {
+    overflow: hidden;
+}
+
+.online {
+    position: relative;
+    margin-left: -80px;
+    margin-top: 90px;
+}
+
+.visible-overflow {
+    overflow: visible;
+}
+
+.box {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 225px;
+    z-index: 2;
+}
+
+header {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 525px;
+    margin-top: -392px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.accordion-place {
+    width: 417px;
+    height: 379px;
+    margin-left: 495px;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.accordion {
+    background-color: #eee;
+    color: gray;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: url(images/icon-arrow-down.svg);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: url(images/icon-arrow-down.svg);
+    transform: rotateX(180deg);
+}
+
+.accordion:hover {
+    color: #F47B56;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 15px; 
+    text-align: center;
+    border: 3px solid black;
+    width: 470px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

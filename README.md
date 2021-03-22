@@ -20,7 +20,7 @@ I finished work on FAQ Accordion Card
 ![](./screenshot.png)
 
 ### Links
-- Solution URL: []()
+- Solution URL: [GitHub](https://github.com/IcEWaRRiOr01/FAQ-Accordion-Card-)
 - Live Site URL: [link](https://codepen.io/icewarrior01/full/QWdLdrK)
 
 ## My Process
